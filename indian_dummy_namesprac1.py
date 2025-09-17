@@ -13,6 +13,8 @@ indian_dummy_names = [
 
 ages = [25, 18, 29, 21, 25, 25, 30, 22, 19, 28, 20, 24, 25, 18, 21, 23, 27, 26, 20, 29, 20, 21, 23, 26, 24, 18, 28, 22, 27, 26, 22, 24, 23, 29, 20, 21, 25, 27, 29, 21, 23, 26, 20, 19, 22, 24, 28, 25, 23, 20]
 
+data = { x:y for x,y in zip(indian_dummy_names, ages)}
+print(data)
 # Consider that the numbers are the Age
 # Tasks:
 # 1. Print Names with Age Using For Loop ex: Vipin: 24 and so on
@@ -51,8 +53,23 @@ ages = [25, 18, 29, 21, 25, 25, 30, 22, 19, 28, 20, 24, 25, 18, 21, 23, 27, 26, 
 #     if y > 20:
 #         print(x,y)
 
+# new_list = []
+# for x, y in zip(indian_dummy_names, ages):
+#     if y > 20:
+#         new_list.append((x,y))
+#         print(new_list)
+
+
 # * Get All Names Who Are Of 30 Years
 
 # for x, y in zip(indian_dummy_names, ages):
 #     if y == 30:
-#         print(x,y)
+#         print(x,y)   
+
+
+# new_list = [(f"{x} :{y}") for x, y in zip(indian_dummy_names, ages) if y >= 30]
+# print(new_list)
+
+# age = 23
+
+# print("yes" if age >= 18 else "no")

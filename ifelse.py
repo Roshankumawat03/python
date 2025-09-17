@@ -117,12 +117,14 @@ else:
  print("No")'''
 
 
-'''a = "a"
-
-if a in "aeiou":
+a = "i"
+print(len(a))
+if len(a) > 1:
+  print("Invalid input")
+elif a in "aeiou":
  print("Yes")
 else:
- print("No")'''
+ print("No")
 
 
 
@@ -171,13 +173,13 @@ else:
 
 # write a program that take 3 number as input and show there average.
 
-a = 15
-b = 20
-c = 25
+# a = 15
+# b = 20
+# c = 25
 
-d = (a+b+c)
-d = d/3
-print(d)
+# d = (a+b+c)
+# d = d/3
+# print(d)
 
 
  

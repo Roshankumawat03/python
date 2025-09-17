@@ -130,8 +130,8 @@ set3 = {4, 5, 6}
 # Create a frozenset
 # In frozenset You Can not add, update, remove, pop, discard
 
-fs = frozenset([1, 2, 3])
-fs2 = frozenset([1, 2, 3])
-print(f"frozenset: {fs}")  # Output: Frozenset: frozenset({1, 2, 3})
-print(type(fs))  # Output: <class 'frozenset'>
+# fs = frozenset([1, 2, 3])
+# fs2 = frozenset([1, 2, 3])
+# print(f"frozenset: {fs}")  # Output: Frozenset: frozenset({1, 2, 3})
+# print(type(fs))  # Output: <class 'frozenset'>
 
